@@ -12,7 +12,7 @@ import java.util.List;
 
 public class XmlPullFeedParse extends BaseFeedParse {
 
-    protected XmlPullFeedParse(String feedUrl) {
+    public XmlPullFeedParse(String feedUrl) {
         super(feedUrl);
     }
 
