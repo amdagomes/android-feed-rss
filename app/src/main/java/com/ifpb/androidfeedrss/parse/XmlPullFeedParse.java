@@ -44,7 +44,7 @@ public class XmlPullFeedParse extends BaseFeedParse {
                             } else if (name.equalsIgnoreCase(DATE_UPDATE)){
                                 currentNotice.setDateUpdate(parser.nextText());
                             } else if (name.equalsIgnoreCase(LINK)){
-                                currentNotice.setLink(parser.getAttributeValue(null, "href"));
+                                currentNotice.setLink(parser.nextText());
                             }
                         }
                         break;

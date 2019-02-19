@@ -12,7 +12,7 @@ public abstract class BaseFeedParse implements FeedParser{
     static final String TITLE = "title";
     static final String DESCRIPTION = "summary";
     static final String DATE_UPDATE = "updated";
-    static final String LINK = "link";
+    static final String LINK = "id";
     static final String ENTRY = "entry";
 
     final URL feedUrl;
